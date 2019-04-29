@@ -12,5 +12,5 @@ attr_accessor :emails
 
     def parse
         emails.delete(',').split.uniq
-
+end
     end
